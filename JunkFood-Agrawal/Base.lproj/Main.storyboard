@@ -29,6 +29,9 @@
                                 <rect key="frame" x="207" y="94" width="76" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="delete"/>
+                                <connections>
+                                    <action selector="resetBTN:" destination="wSo-j6-gPU" eventType="touchUpInside" id="Jle-9r-vVd"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="etx-Tr-DDj">
                                 <rect key="frame" x="16" y="210" width="343" height="357"/>
@@ -43,6 +46,9 @@
                         <viewLayoutGuide key="safeArea" id="cAA-Ur-kTK"/>
                     </view>
                     <navigationItem key="navigationItem" title="JF Tracker" id="Vc8-nd-IGM"/>
+                    <connections>
+                        <outlet property="overviewVF" destination="etx-Tr-DDj" id="cPd-rl-46a"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4v2-aW-PWg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -57,7 +63,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="gni-Iz-s4B" detailTextLabel="CG1-jS-Ti6" style="IBUITableViewCellStyleValue1" id="ZLr-m0-xLY">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="listItem" textLabel="gni-Iz-s4B" detailTextLabel="CG1-jS-Ti6" style="IBUITableViewCellStyleValue1" id="ZLr-m0-xLY">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZLr-m0-xLY" id="Nf5-uP-Kzw">

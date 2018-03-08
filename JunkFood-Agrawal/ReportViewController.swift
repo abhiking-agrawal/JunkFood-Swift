@@ -10,10 +10,13 @@ import UIKit
 
 class ReportViewController: UIViewController {
 
+    @IBOutlet weak var overviewVF: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
-        AppDelegate.food.loadData()
+        AppDelegate.model.loadData()
+        overviewVF.text = AppDelegate.model.combinedReport()
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,7 +24,11 @@ class ReportViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func resetBTN(_ sender: UIButton) {
+        AppDelegate.model.reset()
+        overviewVF.text = AppDelegate.model.combinedReport()
+    }
+    
     /*
     // MARK: - Navigation
 
