@@ -49,7 +49,11 @@ class FoodRecorder {
     }
     
     func combinedReport() -> String{
-        return "Total calories consumed \(self.totalCalories())"
+        var res = ""
+        for i in 0 ..< Foods.count {
+            res += report(forItem: i) + "\n"
+        }
+        return res + "\nTotal calories consumed \(totalCalories())."
     }
     
     func reset(){
