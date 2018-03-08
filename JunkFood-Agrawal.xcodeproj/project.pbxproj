@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C3EE7FA205117F0007E840D /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3EE7F9205117F0007E840D /* ReportViewController.swift */; };
+		5C3EE7FC20511817007E840D /* RecordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3EE7FB20511817007E840D /* RecordTableViewController.swift */; };
 		5C95221C205104BE00CCE879 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C95221B205104BE00CCE879 /* AppDelegate.swift */; };
 		5C95221E205104BE00CCE879 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C95221D205104BE00CCE879 /* ViewController.swift */; };
 		5C952221205104BE00CCE879 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C95221F205104BE00CCE879 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C3EE7F9205117F0007E840D /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		5C3EE7FB20511817007E840D /* RecordTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTableViewController.swift; sourceTree = "<group>"; };
 		5C952218205104BE00CCE879 /* JunkFood-Agrawal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JunkFood-Agrawal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C95221B205104BE00CCE879 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C95221D205104BE00CCE879 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				5C95221D205104BE00CCE879 /* ViewController.swift */,
 				5C95222D205105BD00CCE879 /* Model.swift */,
 				5C95221F205104BE00CCE879 /* Main.storyboard */,
+				5C3EE7F9205117F0007E840D /* ReportViewController.swift */,
+				5C3EE7FB20511817007E840D /* RecordTableViewController.swift */,
 				5C952222205104BE00CCE879 /* Assets.xcassets */,
 				5C952224205104BE00CCE879 /* LaunchScreen.storyboard */,
 				5C952227205104BE00CCE879 /* Info.plist */,
@@ -139,9 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C3EE7FA205117F0007E840D /* ReportViewController.swift in Sources */,
 				5C95222E205105BD00CCE879 /* Model.swift in Sources */,
 				5C95221E205104BE00CCE879 /* ViewController.swift in Sources */,
 				5C95221C205104BE00CCE879 /* AppDelegate.swift in Sources */,
+				5C3EE7FC20511817007E840D /* RecordTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
