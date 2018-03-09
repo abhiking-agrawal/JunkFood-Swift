@@ -29,6 +29,9 @@ class ReportViewController: UIViewController {
         overviewVF.text = AppDelegate.model.combinedReport()
     }
     
+    @IBAction func unwindFromTable(segue:UIStoryboardSegue){
+        overviewVF.text = AppDelegate.model.combinedReport()
+    }
     /*
     // MARK: - Navigation
 
