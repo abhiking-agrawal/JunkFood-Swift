@@ -47,7 +47,7 @@ class RecordTableViewController: UITableViewController {
         return cell
     }
     
-
+   
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
@@ -88,10 +88,14 @@ class RecordTableViewController: UITableViewController {
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        AppDelegate.model.increaseTally(foreItem: tableView.indexPathForSelectedRow!.row)
+        if segue.identifier == "increaseCount"{
+            AppDelegate.model.increaseTally(foreItem: tableView.indexPathForSelectedRow!.row)
+        }
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
     }
     
-
+    @IBAction func unwindFromAddNewItemToFoodList(segue:UIStoryboardSegue){
+        tableView!.reloadData()
+    }
 }

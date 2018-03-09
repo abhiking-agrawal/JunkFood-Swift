@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27B62B732052113D004AE6C3 /* ItemAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B62B722052113D004AE6C3 /* ItemAddViewController.swift */; };
 		5C0615162051207100388354 /* RecordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0615152051207100388354 /* RecordTableViewController.swift */; };
 		5C0615182051209100388354 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0615172051209100388354 /* ReportViewController.swift */; };
 		5C95221C205104BE00CCE879 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C95221B205104BE00CCE879 /* AppDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27B62B722052113D004AE6C3 /* ItemAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemAddViewController.swift; sourceTree = "<group>"; };
 		5C0615152051207100388354 /* RecordTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTableViewController.swift; sourceTree = "<group>"; };
 		5C0615172051209100388354 /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
 		5C952218205104BE00CCE879 /* JunkFood-Agrawal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JunkFood-Agrawal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +66,7 @@
 				5C95221D205104BE00CCE879 /* ViewController.swift */,
 				5C95222D205105BD00CCE879 /* Model.swift */,
 				5C95221F205104BE00CCE879 /* Main.storyboard */,
+				27B62B722052113D004AE6C3 /* ItemAddViewController.swift */,
 				5C0615152051207100388354 /* RecordTableViewController.swift */,
 				5C0615172051209100388354 /* ReportViewController.swift */,
 				5C952222205104BE00CCE879 /* Assets.xcassets */,
@@ -148,6 +151,7 @@
 				5C0615162051207100388354 /* RecordTableViewController.swift in Sources */,
 				5C95222E205105BD00CCE879 /* Model.swift in Sources */,
 				5C95221E205104BE00CCE879 /* ViewController.swift in Sources */,
+				27B62B732052113D004AE6C3 /* ItemAddViewController.swift in Sources */,
 				5C0615182051209100388354 /* ReportViewController.swift in Sources */,
 				5C95221C205104BE00CCE879 /* AppDelegate.swift in Sources */,
 			);

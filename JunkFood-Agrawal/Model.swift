@@ -40,6 +40,9 @@ class FoodRecorder {
         return "The calories consumed for \(Foods[i].Name) is \(self.getCalories(forItem: i))"
     }
     
+    func appendNewItemToFoodList(_ foodName:String,_ calories:Double){
+        Foods.append(FoodData(Name: foodName, Calories: calories, Tally: 0))
+    }
     func totalCalories() -> Double{
         var sum : Double = 0
         for i in 0 ..< Foods.count{
